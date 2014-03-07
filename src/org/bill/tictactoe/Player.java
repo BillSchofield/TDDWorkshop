@@ -1,7 +1,15 @@
 package org.bill.tictactoe;
 
-public class Player {
-    public void move() {
+import java.io.BufferedReader;
 
+public class Player {
+    private Board board;
+
+    public Player(Board board, BufferedReader in) {
+        this.board = board;
+    }
+
+    public void move() {
+        board.mark("");
     }
 }

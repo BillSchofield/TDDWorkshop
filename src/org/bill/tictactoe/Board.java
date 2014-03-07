@@ -19,4 +19,8 @@ public class Board {
         );
 
     }
+
+    public void mark(String location) {
+
+    }
 }
