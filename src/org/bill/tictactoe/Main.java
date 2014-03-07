@@ -3,6 +3,9 @@ package org.bill.tictactoe;
 public class Main {
 
     public static void main(String[] args) {
-        new Board(System.out).print();
+
+        Board board = new Board(System.out);
+        Game game = new Game(board);
+        game.play();
     }
 }
