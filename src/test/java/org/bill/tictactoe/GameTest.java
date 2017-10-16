@@ -10,13 +10,11 @@ public class GameTest {
 
     private Board board;
     private Game game;
-    private Player player;
 
     @Before
     public void setUp() throws Exception {
         board = mock(Board.class);
-        player = mock(Player.class);
-        game = new Game(board, player);
+        game = new Game(board);
     }
 
     @Test
@@ -25,12 +23,4 @@ public class GameTest {
 
         verify(board).print();
     }
-
-    @Test
-    public void playerShouldMoveWhenGameStarts() {
-        game.start();
-
-        verify(player).move();
-    }
-
 }

@@ -9,8 +9,7 @@ public class Main {
 
         Board board = new Board(System.out);
         BufferedReader in = new BufferedReader (new InputStreamReader(System.in));
-        Player player = new Player(board, in);
-        Game game = new Game(board, player);
+        Game game = new Game(board);
         game.start();
     }
 }

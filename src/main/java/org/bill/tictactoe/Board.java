@@ -11,16 +11,11 @@ public class Board {
 
     public void print() {
         out.println(
-                "  |   |  \n"
-                        + "---------\n"
-                        + "  |   |  \n"
-                        + "---------\n"
-                        + "  |   |  \n"
+              "  |   |  \n"
+            + "---------\n"
+            + "  |   |  \n"
+            + "---------\n"
+            + "  |   |  \n"
         );
-
-    }
-
-    public void mark(String location) {
-
     }
 }
