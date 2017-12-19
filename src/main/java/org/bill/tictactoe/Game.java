@@ -8,6 +8,6 @@ public class Game {
     }
 
     public void start() {
-        board.print();
+        board.draw();
     }
 }

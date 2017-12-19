@@ -1,24 +1,27 @@
 package org.bill.tictactoe;
 
 import org.junit.Test;
-import org.mockito.Mockito;
 
 import java.io.PrintStream;
 
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 
 public class BoardTest {
 
     @Test
-    public void shouldPrintEmptyBoard(){
+    public void shouldPrintNumberedBoardWhenDrawing(){
         PrintStream printStream = mock(PrintStream.class);
-        new Board(printStream).print();
-        Mockito.verify(printStream).println(
-                   "  |   |  \n"
-                 + "---------\n"
-                 + "  |   |  \n"
-                 + "---------\n"
-                 + "  |   |  \n"
+        Board board = new Board(printStream);
+
+        board.draw();
+
+        verify(printStream).println(
+                   "1|2|3\n"
+                 + "-----\n"
+                 + "4|5|6\n"
+                 + "-----\n"
+                 + "7|8|9\n"
         );
     }
 }

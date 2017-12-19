@@ -7,20 +7,19 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 public class GameTest {
-
     private Board board;
     private Game game;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         board = mock(Board.class);
         game = new Game(board);
     }
 
     @Test
-    public void shouldPrintBoardWhenGameStarts() {
+    public void shouldDrawBoardWhenGameStarts() {
         game.start();
 
-        verify(board).print();
+        verify(board).draw();
     }
 }

@@ -9,7 +9,7 @@ public class Board {
         this.out = out;
     }
 
-    public void print() {
+    public void draw() {
         out.println(
               "  |   |  \n"
             + "---------\n"
