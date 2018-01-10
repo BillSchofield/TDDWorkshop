@@ -1,4 +1,4 @@
-# User Stories
+# Tic Tac Toe User Stories
 
 ### Draw the board
 When the game starts, draw a board that looks like this:
@@ -36,6 +36,9 @@ After each move, if that player has three in a row vertically, end the game and 
 ### Win by Filling a Diagonal
 After each move, if that player has three in a row diagonally, end the game and display the message, “Player <#> Wins!”.
 
+# Workshop
+We implement these stories, in-order, one at a time, using London School TDD. The facilitator codes, while the attendees act in the navigator pair programming role. The facilator guides the process and calls out important concepts.
+
 # Activities
 
 ### Explore the Domain
@@ -49,4 +52,4 @@ These nouns are candidate class names and the verbs are candidate method names. 
 Write a unit test that reads just like the story and is about the interaction of two domain concepts and one is a new class.
 
 ### Implement the Domain too late
-Write a unit test that inteprets the verb directly. Just do the work without creating a new class.
+Write a unit test that inteprets the verb directly. Just do the work without creating a new class. We'll eventually discover the domain concept represented by the verb and will extract a method and then class to capture that domain concept.
