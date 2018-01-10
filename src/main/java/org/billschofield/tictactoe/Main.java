@@ -1,4 +1,4 @@
-package org.bill.tictactoe;
+package org.billschofield.tictactoe;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-group 'org.bill'
+group 'org.billschofield'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
