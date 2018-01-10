@@ -35,3 +35,18 @@ After each move, if that player has three in a row vertically, end the game and 
 
 ### Win by Filling a Diagonal
 After each move, if that player has three in a row diagonally, end the game and display the message, “Player <#> Wins!”.
+
+# Activities
+
+### Explore the Domain
+* For each story, list all of the nouns. Put them in a column on the left side of your writing area.
+* For each story, list all of the verbs. Put them in a culumn on the right.
+* Draw lines from the nouns to the verbs that sound like a sentence (in the context of the this domain). For instance, if we we in the domain of a farm, you might draw an arrow from the noun 'cow' to the verb 'moos', because saying, "The cow moos." sounds right in the farm domain.
+
+These nouns are candidate class names and the verbs are candidate method names. The lines indicate that the class (noun) might eventually contain the method (verb). This diagram contains clues about what our classes might look like. Remember that they are just clues and also remember that they are probably great clues.
+
+### Implement the Domain too early
+Write a unit test that reads just like the story and is about the interaction of two domain concepts and one is a new class.
+
+### Implement the Domain too late
+Write a unit test that inteprets the verb directly. Just do the work without creating a new class.
