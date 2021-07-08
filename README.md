@@ -9,20 +9,20 @@ When the game starts, draw a board that looks like this:
     -----
     7|8|9
 
-### Player One Move
-When the game starts let player one make a move.
+### Player Can Move
+When the game starts and after the board is drawn for the first time, let a player make a move.
 A player move consists of:
-* Print a prompt asking the player to enter a number indicating where they want to mark the board
-* Draw the board with the player’s symbol in that location
+* Print a prompt asking the player to enter a number indicating where they want to mark the board. This is the number that is in the desired cell in the drawn board.
+* Draw the board with the player’s symbol in that cell
 
 The player one’s mark is an “X”.
 Don’t worry about handling the case where the player enters a number that is not between 1 and 9.
 
-### Player Two Move
-After player one moves, let player two make their move. Then draw the board with an ‘O’ in the location (and still draw player one’s ‘X’). You don’t need to check if that location is already taken.
+### Second Player Can Move
+After the first player moves, let a different player make their move. Then draw the board with an ‘O’ in the cell (and still draw the first player’s ‘X’). You don’t need to check if that cell is already taken. Each player should know when it is their turn.
     
-### Location already taken
-If either player moves into a location that is already used, display the message, “Location already taken” and prompt them to try again (repeat this until they make a valid move).
+### Cell already taken
+If either player moves into a cell that is already taken, display the message, “Cell already taken” and prompt them to try again (repeat this until they make a valid move).
 
 ### Repeat until the board is filled
 Alternate player turns until the board is filled. Draw the board once it is full and display the message, “Game is a draw”.
