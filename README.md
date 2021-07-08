@@ -28,13 +28,13 @@ If either player moves into a cell that is already taken, display the message, �
 Alternate player turns until the board is filled. Draw the board once it is full and display the message, “Game is a draw”.
 
 ### Win by Filling a Row
-After each move, if that player has three in a row horizontally, end the game and display the message, “Player <#> Wins!”.
+After each move, if that player has three in a row horizontally, end the game and display the message, “<First, Second> Player Wins!”.
 
 ### Win by Filling a Column
-After each move, if that player has three in a row vertically, end the game and display the message, “Player <#> Wins!”.
+After each move, if that player has three in a row vertically, end the game and display the message, “<First, Second> Player Wins!”.
 
 ### Win by Filling a Diagonal
-After each move, if that player has three in a row diagonally, end the game and display the message, “Player <#> Wins!”.
+After each move, if that player has three in a row diagonally, end the game and display the message, “<First, Second> Player Wins!”.
 
 # Workshop
 We implement these stories, in-order, one at a time, using London School TDD. The facilitator codes, while the attendees act in the navigator pair programming role. The facilator guides the process and calls out important concepts.
